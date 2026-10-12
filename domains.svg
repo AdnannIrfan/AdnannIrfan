@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="410" viewBox="0 0 800 410" role="img" aria-label="Projects by domain: Full Stack Web 5, Data Engineering 3, AI/ML and Algorithms 3, Mobile 2, Real-Time Systems 2, Security and Systems 2">
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif}
+.bar{transform-box:fill-box;transform-origin:left center;animation:grow 9s ease-in-out infinite both}
+.num{animation:fade 9s ease-in-out infinite both}
+@keyframes grow{0%{transform:scaleX(0)}12%{transform:scaleX(1)}88%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+@keyframes fade{0%,8%{opacity:0}16%,88%{opacity:1}100%{opacity:0}}
+</style>
+<rect x="1" y="1" width="798" height="408" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+<text x="32" y="46" font-size="22" font-weight="700" fill="#f8fafc">Project portfolio by domain</text>
+<text x="32" y="70" font-size="13" fill="#94a3b8">17 end-to-end projects, grouped by their main focus</text>
+
+<text x="32" y="122" font-size="14" fill="#e2e8f0">Full Stack Web</text>
+<rect class="bar" x="230" y="105" width="500" height="24" rx="6" fill="#60a5fa" style="animation-delay:.1s"/>
+<text class="num" x="742" y="123" font-size="15" font-weight="700" fill="#60a5fa" style="animation-delay:.1s">5</text>
+
+<text x="32" y="168" font-size="14" fill="#e2e8f0">Data Engineering</text>
+<rect class="bar" x="230" y="151" width="300" height="24" rx="6" fill="#2dd4bf" style="animation-delay:.25s"/>
+<text class="num" x="542" y="169" font-size="15" font-weight="700" fill="#2dd4bf" style="animation-delay:.25s">3</text>
+
+<text x="32" y="214" font-size="14" fill="#e2e8f0">AI/ML and Algorithms</text>
+<rect class="bar" x="230" y="197" width="300" height="24" rx="6" fill="#a78bfa" style="animation-delay:.4s"/>
+<text class="num" x="542" y="215" font-size="15" font-weight="700" fill="#a78bfa" style="animation-delay:.4s">3</text>
+
+<text x="32" y="260" font-size="14" fill="#e2e8f0">Mobile Apps</text>
+<rect class="bar" x="230" y="243" width="200" height="24" rx="6" fill="#f472b6" style="animation-delay:.55s"/>
+<text class="num" x="442" y="261" font-size="15" font-weight="700" fill="#f472b6" style="animation-delay:.55s">2</text>
+
+<text x="32" y="306" font-size="14" fill="#e2e8f0">Real-Time Systems</text>
+<rect class="bar" x="230" y="289" width="200" height="24" rx="6" fill="#fbbf24" style="animation-delay:.7s"/>
+<text class="num" x="442" y="307" font-size="15" font-weight="700" fill="#fbbf24" style="animation-delay:.7s">2</text>
+
+<text x="32" y="352" font-size="14" fill="#e2e8f0">Security and Systems</text>
+<rect class="bar" x="230" y="335" width="200" height="24" rx="6" fill="#4ade80" style="animation-delay:.85s"/>
+<text class="num" x="442" y="353" font-size="15" font-weight="700" fill="#4ade80" style="animation-delay:.85s">2</text>
+
+<text x="32" y="392" font-size="12" fill="#64748b">Each project is counted once, under its main focus.</text>
+</svg>

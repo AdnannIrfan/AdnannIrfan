@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480" role="img" aria-label="Number of projects using each technology: Python 8, Flask 5, SQL Server 5, C# Blazor 3, HTML and CSS 3, Flutter and Dart 2, JavaScript 2, Firebase 2">
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif}
+.bar{transform-box:fill-box;transform-origin:left center;animation:grow 10s ease-in-out infinite both}
+.num{animation:fade 10s ease-in-out infinite both}
+@keyframes grow{0%{transform:scaleX(0)}12%{transform:scaleX(1)}88%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+@keyframes fade{0%,8%{opacity:0}16%,88%{opacity:1}100%{opacity:0}}
+</style>
+<rect x="1" y="1" width="798" height="478" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+<text x="32" y="46" font-size="22" font-weight="700" fill="#f8fafc">Technologies used across my projects</text>
+<text x="32" y="70" font-size="13" fill="#94a3b8">Number of projects that use each technology</text>
+
+<text x="32" y="122" font-size="14" fill="#e2e8f0">Python</text>
+<rect class="bar" x="190" y="105" width="480" height="24" rx="6" fill="#3b82f6" style="animation-delay:.1s"/>
+<text class="num" x="682" y="123" font-size="15" font-weight="700" fill="#93c5fd" style="animation-delay:.1s">8</text>
+
+<text x="32" y="164" font-size="14" fill="#e2e8f0">Flask</text>
+<rect class="bar" x="190" y="147" width="300" height="24" rx="6" fill="#14b8a6" style="animation-delay:.2s"/>
+<text class="num" x="502" y="165" font-size="15" font-weight="700" fill="#5eead4" style="animation-delay:.2s">5</text>
+
+<text x="32" y="206" font-size="14" fill="#e2e8f0">SQL Server</text>
+<rect class="bar" x="190" y="189" width="300" height="24" rx="6" fill="#ef4444" style="animation-delay:.3s"/>
+<text class="num" x="502" y="207" font-size="15" font-weight="700" fill="#fca5a5" style="animation-delay:.3s">5</text>
+
+<text x="32" y="248" font-size="14" fill="#e2e8f0">C# and Blazor</text>
+<rect class="bar" x="190" y="231" width="180" height="24" rx="6" fill="#8b5cf6" style="animation-delay:.4s"/>
+<text class="num" x="382" y="249" font-size="15" font-weight="700" fill="#c4b5fd" style="animation-delay:.4s">3</text>
+
+<text x="32" y="290" font-size="14" fill="#e2e8f0">HTML and CSS</text>
+<rect class="bar" x="190" y="273" width="180" height="24" rx="6" fill="#f97316" style="animation-delay:.5s"/>
+<text class="num" x="382" y="291" font-size="15" font-weight="700" fill="#fdba74" style="animation-delay:.5s">3</text>
+
+<text x="32" y="332" font-size="14" fill="#e2e8f0">Flutter and Dart</text>
+<rect class="bar" x="190" y="315" width="120" height="24" rx="6" fill="#0ea5e9" style="animation-delay:.6s"/>
+<text class="num" x="322" y="333" font-size="15" font-weight="700" fill="#7dd3fc" style="animation-delay:.6s">2</text>
+
+<text x="32" y="374" font-size="14" fill="#e2e8f0">JavaScript</text>
+<rect class="bar" x="190" y="357" width="120" height="24" rx="6" fill="#eab308" style="animation-delay:.7s"/>
+<text class="num" x="322" y="375" font-size="15" font-weight="700" fill="#fde047" style="animation-delay:.7s">2</text>
+
+<text x="32" y="416" font-size="14" fill="#e2e8f0">Firebase</text>
+<rect class="bar" x="190" y="399" width="120" height="24" rx="6" fill="#f59e0b" style="animation-delay:.8s"/>
+<text class="num" x="322" y="417" font-size="15" font-weight="700" fill="#fcd34d" style="animation-delay:.8s">2</text>
+
+<text x="32" y="458" font-size="12" fill="#64748b">Counted from the stacks listed for each of my projects. C, C++, MFA and ETL projects each have their own sections below.</text>
+</svg>

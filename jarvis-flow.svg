@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-label="JARVIS Chat: the browser client sends message events to the Flask-SocketIO server and receives response events over a WebSocket, verified with Wireshark">
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{stroke-opacity:1}50%{stroke-opacity:.4}}
+</style>
+<rect x="1" y="1" width="798" height="338" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+<text x="32" y="44" font-size="22" font-weight="700" fill="#f8fafc">JARVIS Chat: real-time message flow</text>
+<text x="32" y="66" font-size="13" fill="#94a3b8">Two-way communication over one open WebSocket connection</text>
+
+<rect class="pulse" x="40" y="90" width="220" height="130" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+<text x="150" y="122" text-anchor="middle" font-size="16" font-weight="700" fill="#f8fafc">Browser client</text>
+<text x="150" y="150" text-anchor="middle" font-size="13" fill="#cbd5e1">main.js + Socket.IO</text>
+<text x="150" y="171" text-anchor="middle" font-size="13" fill="#cbd5e1">Web Speech API voice input</text>
+<text x="150" y="192" text-anchor="middle" font-size="13" fill="#cbd5e1">Particle animation UI</text>
+
+<rect class="pulse" x="540" y="90" width="220" height="130" rx="12" fill="#1e293b" stroke="#4ade80" stroke-width="2"/>
+<text x="650" y="122" text-anchor="middle" font-size="16" font-weight="700" fill="#f8fafc">Flask server</text>
+<text x="650" y="150" text-anchor="middle" font-size="13" fill="#cbd5e1">Flask-SocketIO</text>
+<text x="650" y="171" text-anchor="middle" font-size="13" fill="#cbd5e1">Listens for message events</text>
+<text x="650" y="192" text-anchor="middle" font-size="13" fill="#cbd5e1">localhost:5000</text>
+
+<line x1="262" y1="128" x2="538" y2="128" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="400" y="118" text-anchor="middle" font-size="13" font-weight="700" fill="#7dd3fc">message</text>
+<circle cy="128" r="8" fill="#38bdf8"><animate attributeName="cx" values="262;538" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.6s" repeatCount="indefinite"/></circle>
+
+<line x1="538" y1="182" x2="262" y2="182" stroke="#4ade80" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="400" y="206" text-anchor="middle" font-size="13" font-weight="700" fill="#86efac">response</text>
+<circle cy="182" r="8" fill="#4ade80"><animate attributeName="cx" values="538;262" dur="2.6s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.6s" begin="1.3s" repeatCount="indefinite"/></circle>
+
+<rect x="215" y="258" width="370" height="54" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="400" y="281" text-anchor="middle" font-size="14" font-weight="700" fill="#fde68a">Wireshark analysis</text>
+<text x="400" y="300" text-anchor="middle" font-size="12" fill="#cbd5e1">Captured and verified live TCP and WebSocket packets</text>
+<line x1="400" y1="222" x2="400" y2="256" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="3 4"/>
+</svg>

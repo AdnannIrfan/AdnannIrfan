@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430" role="img" aria-label="GramSure's 12 modules. Recipe Standards, Production Batches, Fraud Detection and Owner Notification Center are built by Muhammad Adnan Ali">
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif}
+.t{animation:appear 10s ease-out infinite both}
+.mine rect{animation:glow 2.4s ease-in-out infinite}
+@keyframes appear{0%{opacity:0;transform:translateY(10px)}7%{opacity:1;transform:translateY(0)}92%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(0)}}
+@keyframes glow{0%,100%{stroke-opacity:1;stroke-width:2}50%{stroke-opacity:.35;stroke-width:4}}
+</style>
+<rect x="1" y="1" width="798" height="428" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+<text x="32" y="46" font-size="22" font-weight="700" fill="#f8fafc">GramSure: 12 interoperable modules</text>
+<text x="32" y="70" font-size="13" fill="#94a3b8">From raw material purchase to live profit and loss, with fraud detection and owner alerts</text>
+
+<g class="t" style="animation-delay:.0s"><g class="mine"><rect x="35" y="100" width="172" height="74" rx="10" fill="#422006" stroke="#fbbf24"/></g><text x="121" y="133" text-anchor="middle" font-size="14" font-weight="700" fill="#fde68a">Recipe</text><text x="121" y="153" text-anchor="middle" font-size="14" font-weight="700" fill="#fde68a">Standards</text></g>
+<g class="t" style="animation-delay:.2s"><rect x="221" y="100" width="172" height="74" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/><text x="307" y="143" text-anchor="middle" font-size="14" fill="#e2e8f0">Procurement</text></g>
+<g class="t" style="animation-delay:.4s"><rect x="407" y="100" width="172" height="74" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/><text x="493" y="143" text-anchor="middle" font-size="14" fill="#e2e8f0">Inventory (FIFO)</text></g>
+<g class="t" style="animation-delay:.6s"><g class="mine"><rect x="593" y="100" width="172" height="74" rx="10" fill="#422006" stroke="#fbbf24"/></g><text x="679" y="133" text-anchor="middle" font-size="14" font-weight="700" fill="#fde68a">Production</text><text x="679" y="153" text-anchor="middle" font-size="14" font-weight="700" fill="#fde68a">Batches</text></g>
+
+<g class="t" style="animation-delay:.8s"><rect x="35" y="188" width="172" height="74" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/><text x="121" y="217" text-anchor="middle" font-size="14" fill="#e2e8f0">Sales</text><text x="121" y="237" text-anchor="middle" font-size="14" fill="#e2e8f0">Reconciliation</text></g>
+<g class="t" style="animation-delay:1.0s"><rect x="221" y="188" width="172" height="74" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/><text x="307" y="231" text-anchor="middle" font-size="14" fill="#e2e8f0">Expenses</text></g>
+<g class="t" style="animation-delay:1.2s"><rect x="407" y="188" width="172" height="74" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/><text x="493" y="231" text-anchor="middle" font-size="14" fill="#e2e8f0">Staff Attendance</text></g>
+<g class="t" style="animation-delay:1.4s"><rect x="593" y="188" width="172" height="74" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/><text x="679" y="217" text-anchor="middle" font-size="14" fill="#e2e8f0">Live P&amp;L</text><text x="679" y="237" text-anchor="middle" font-size="14" fill="#e2e8f0">Dashboard</text></g>
+
+<g class="t" style="animation-delay:1.6s"><g class="mine"><rect x="35" y="276" width="172" height="74" rx="10" fill="#422006" stroke="#fbbf24"/></g><text x="121" y="305" text-anchor="middle" font-size="14" font-weight="700" fill="#fde68a">Fraud</text><text x="121" y="325" text-anchor="middle" font-size="14" font-weight="700" fill="#fde68a">Detection</text></g>
+<g class="t" style="animation-delay:1.8s"><rect x="221" y="276" width="172" height="74" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/><text x="307" y="305" text-anchor="middle" font-size="14" fill="#e2e8f0">Demand</text><text x="307" y="325" text-anchor="middle" font-size="14" fill="#e2e8f0">Forecasting</text></g>
+<g class="t" style="animation-delay:2.0s"><g class="mine"><rect x="407" y="276" width="172" height="74" rx="10" fill="#422006" stroke="#fbbf24"/></g><text x="493" y="305" text-anchor="middle" font-size="14" font-weight="700" fill="#fde68a">Owner Notification</text><text x="493" y="325" text-anchor="middle" font-size="14" font-weight="700" fill="#fde68a">Center</text></g>
+<g class="t" style="animation-delay:2.2s"><rect x="593" y="276" width="172" height="74" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/><text x="679" y="305" text-anchor="middle" font-size="14" fill="#e2e8f0">Multi-Branch</text><text x="679" y="325" text-anchor="middle" font-size="14" fill="#e2e8f0">Management</text></g>
+
+<rect x="35" y="378" width="16" height="16" rx="4" fill="#422006" stroke="#fbbf24" stroke-width="2"/>
+<text x="60" y="391" font-size="13" fill="#e2e8f0">Modules I built as Full Stack lead</text>
+<rect x="320" y="378" width="16" height="16" rx="4" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+<text x="345" y="391" font-size="13" fill="#e2e8f0">Modules built by the team</text>
+<text x="35" y="418" font-size="12" fill="#64748b">Yield variance detection uses a 2% tolerance band. Staff roles: Owner, Manager, Staff, Auditor.</text>
+</svg>

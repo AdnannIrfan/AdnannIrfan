@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" role="img" aria-label="Medical image disease detection pipeline: upload, resize and normalize, Gaussian noise removal, edge detection and segmentation, feature extraction, CNN classifier, disease label with probability scores">
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif}
+.step{animation:lit 8.4s ease-in-out infinite}
+@keyframes lit{0%{stroke:#334155;fill:#1e293b}5%,14%{stroke:#38bdf8;fill:#0c4a6e}22%,100%{stroke:#334155;fill:#1e293b}}
+</style>
+<rect x="1" y="1" width="798" height="378" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+<text x="32" y="44" font-size="22" font-weight="700" fill="#f8fafc">Medical image detection pipeline</text>
+<text x="32" y="66" font-size="13" fill="#94a3b8">From an uploaded scan to a disease label with probability scores</text>
+
+<rect class="step" x="22" y="95" width="96" height="86" rx="10" stroke-width="2" style="animation-delay:0s"/>
+<text x="70" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#f1f5f9">Upload</text><text x="70" y="150" text-anchor="middle" font-size="12" fill="#cbd5e1">image</text>
+<rect class="step" x="132" y="95" width="96" height="86" rx="10" stroke-width="2" style="animation-delay:1.2s"/>
+<text x="180" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#f1f5f9">Resize and</text><text x="180" y="150" text-anchor="middle" font-size="12" fill="#cbd5e1">normalize</text>
+<rect class="step" x="242" y="95" width="96" height="86" rx="10" stroke-width="2" style="animation-delay:2.4s"/>
+<text x="290" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#f1f5f9">Gaussian</text><text x="290" y="150" text-anchor="middle" font-size="12" fill="#cbd5e1">noise removal</text>
+<rect class="step" x="352" y="95" width="96" height="86" rx="10" stroke-width="2" style="animation-delay:3.6s"/>
+<text x="400" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#f1f5f9">Edge detection</text><text x="400" y="150" text-anchor="middle" font-size="12" fill="#cbd5e1">and segmentation</text>
+<rect class="step" x="462" y="95" width="96" height="86" rx="10" stroke-width="2" style="animation-delay:4.8s"/>
+<text x="510" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#f1f5f9">Feature</text><text x="510" y="150" text-anchor="middle" font-size="12" fill="#cbd5e1">extraction</text>
+<rect class="step" x="572" y="95" width="96" height="86" rx="10" stroke-width="2" style="animation-delay:6s"/>
+<text x="620" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#f1f5f9">CNN</text><text x="620" y="150" text-anchor="middle" font-size="12" fill="#cbd5e1">classifier</text>
+<rect class="step" x="682" y="95" width="96" height="86" rx="10" stroke-width="2" style="animation-delay:7.2s"/>
+<text x="730" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#f1f5f9">Disease label</text><text x="730" y="150" text-anchor="middle" font-size="12" fill="#cbd5e1">+ probability</text>
+
+<line x1="132" y1="200" x2="558" y2="200" stroke="#a78bfa" stroke-width="2"/>
+<text x="345" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#c4b5fd">OpenCV digital image processing</text>
+<line x1="572" y1="200" x2="668" y2="200" stroke="#fb923c" stroke-width="2"/>
+<text x="620" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#fdba74">TensorFlow / Keras</text>
+<line x1="22" y1="200" x2="118" y2="200" stroke="#4ade80" stroke-width="2"/>
+<text x="70" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#86efac">Flask web app</text>
+<line x1="682" y1="200" x2="778" y2="200" stroke="#4ade80" stroke-width="2"/>
+<text x="730" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#86efac">Flask results page</text>
+
+<text x="32" y="262" font-size="13" font-weight="700" fill="#e2e8f0">Conditions in scope</text>
+<rect x="32" y="272" width="168" height="30" rx="15" fill="#1e293b" stroke="#334155"/><text x="116" y="292" text-anchor="middle" font-size="12" fill="#e2e8f0">Pneumonia (chest X-ray)</text>
+<rect x="212" y="272" width="140" height="30" rx="15" fill="#1e293b" stroke="#334155"/><text x="282" y="292" text-anchor="middle" font-size="12" fill="#e2e8f0">Brain tumor (MRI)</text>
+<rect x="364" y="272" width="112" height="30" rx="15" fill="#1e293b" stroke="#334155"/><text x="420" y="292" text-anchor="middle" font-size="12" fill="#e2e8f0">Skin disease</text>
+<rect x="488" y="272" width="112" height="30" rx="15" fill="#1e293b" stroke="#334155"/><text x="544" y="292" text-anchor="middle" font-size="12" fill="#e2e8f0">Tuberculosis</text>
+<rect x="612" y="272" width="156" height="30" rx="15" fill="#1e293b" stroke="#334155"/><text x="690" y="292" text-anchor="middle" font-size="12" fill="#e2e8f0">Diabetic retinopathy</text>
+
+<text x="32" y="338" font-size="13" font-weight="700" fill="#e2e8f0">Evaluation</text>
+<text x="32" y="360" font-size="13" fill="#cbd5e1">Accuracy, precision, recall, F1-score and confusion matrix on labeled Kaggle datasets</text>
+</svg>
